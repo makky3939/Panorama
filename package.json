@@ -1,0 +1,19 @@
+{
+  "name": "StreetView",
+  "version": "0.0.0",
+  "description": "app.makky.io/streetview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makky3939/StreetView.git"
+  },
+  "author": "Makky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makky3939/StreetView/issues"
+  },
+  "homepage": "https://github.com/makky3939/StreetView"
+}
