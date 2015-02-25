@@ -23,7 +23,6 @@ app.controller 'PanoramaController', ($rootScope, $scope,
       return panoramaID
 
   $scope.initialize = ->
-    console.log $scope.checkHasPosts($scope.panoramaID)
     panoOptions =
       pano: $scope.checkHasPosts($scope.panoramaID),
       panoProvider: $scope.getCustomPanorama,

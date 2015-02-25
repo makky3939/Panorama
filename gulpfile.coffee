@@ -41,7 +41,9 @@ gulp.task 'bower', ->
       .pipe gulp.dest './dst/lib/angular-ui-router/'
 
     gulp.src [
-      'bower_components/angular-animate/angular-animate.min.js']
+      'bower_components/angular-animate/angular-animate.min.js'
+      'bower_components/angular-animate/angular-animate.min.js.map'
+    ]
       .pipe gulp.dest './dst/lib/angular-animate/'
 
     gulp.src [
