@@ -1,0 +1,5 @@
+.col-xs-12
+  .row
+    .col-xs-6.col-sm-3(ng-repeat='(key, value) in panorama')
+      .row
+        .panorama(ng-click='choice(key)', ng-style="{'background-image':'url({{thumbnailPath(key)}})'}")

@@ -1,0 +1,41 @@
+.header
+  position: absolute
+  top: 0
+  background: $Blue
+  color: $White
+  width: 100%
+  height: 48px
+
+  .menu_button
+    float: right
+    height: 48px
+    width: 48px
+    box-sizing: border-box
+    background: $DarkGray
+    text-align: center
+    color: $White
+    transition: background .2s ease-in, color .2s linear
+    i
+      line-height: 1.7em
+    &:hover
+      background: $LightGray
+      color: $DarkGray
+
+  .title
+    float: center
+    margin: 0 auto
+    text-align: center
+    height: 48px
+    span
+      height: 48px
+      display: inline-block
+      font-family: 'Alex Brush', cursive
+      line-height: 48px
+      font-size: 24px
+      vertical-align: baseline
+    small
+      margin: 0 8px
+      font-size: 8px
+    a
+      color: $White
+      font-style: italic
