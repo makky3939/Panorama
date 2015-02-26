@@ -37,6 +37,11 @@ gulp.task 'bower', ->
       .pipe gulp.dest './dst/lib/bootstrap/'
 
     gulp.src [
+      'bower_components/angulartics/dist/angulartics.min.js'
+      'bower_components/angulartics/dist/angulartics-ga.min.js']
+      .pipe gulp.dest './dst/lib/angulartics/'
+
+    gulp.src [
       'bower_components/angular-ui-router/release/angular-ui-router.min.js']
       .pipe gulp.dest './dst/lib/angular-ui-router/'
 
