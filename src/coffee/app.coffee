@@ -21,5 +21,7 @@ ga('create', 'UA-47562530-1', 'auto')
 app =
   angular.module 'streetview', [
     'ui.router',
-    'ngAnimate'
+    'ngAnimate',
+    'angulartics',
+    'angulartics.google.analytics'
   ]
