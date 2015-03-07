@@ -21,5 +21,5 @@ app.config ($locationProvider) ->
   $urlRouterProvider.otherwise ($injector) ->
     $injector.get('$state').go 'panorama'
 
-app.config( ($analyticsProvider) ->
+app.config ($analyticsProvider) ->
   $analyticsProvider.virtualPageviews true
